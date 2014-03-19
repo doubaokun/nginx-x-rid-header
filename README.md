@@ -28,3 +28,7 @@ USAGE
     }
 
 3) On your backend (8080), you can pull the request header `x-exampledotcom-rid`, and log it or tie it to whatever you may like. This makes it really easy to correlate backend exceptions or instrumentation with frontend http request logs.
+
+4) You should install add `--with-cc-opt=-I/usr/include/ossp` in Debian or Ubuntu. Before that ensure you have installed ossp uuid library: `sudo apt-get install libossp-uuid-dev`.
+
+
